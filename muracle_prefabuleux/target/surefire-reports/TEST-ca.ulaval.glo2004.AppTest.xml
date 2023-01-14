@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ca.ulaval.glo2004.AppTest" time="0.056" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="18"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Antoine\Programmation\Ecole\4A_Polytech\Génie logiciel\Projet\A22-GLO-Equipe56\muracle_prefabuleux\target\test-classes;C:\Users\Antoine\Programmation\Ecole\4A_Polytech\Génie logiciel\Projet\A22-GLO-Equipe56\muracle_prefabuleux\target\classes;C:\Users\Antoine\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Antoine\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Antoine\.m2\repository\com\google\truth\truth\1.0.1\truth-1.0.1.jar;C:\Users\Antoine\.m2\repository\com\google\guava\guava\28.1-android\guava-28.1-android.jar;C:\Users\Antoine\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Antoine\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Antoine\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Antoine\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Antoine\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.18\animal-sniffer-annotations-1.18.jar;C:\Users\Antoine\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar;C:\Users\Antoine\.m2\repository\com\googlecode\java-diff-utils\diffutils\1.3.0\diffutils-1.3.0.jar;C:\Users\Antoine\.m2\repository\com\google\auto\value\auto-value-annotations\1.6.3\auto-value-annotations-1.6.3.jar;C:\Users\Antoine\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.3\error_prone_annotations-2.3.3.jar;C:\Users\Antoine\.m2\repository\org\netbeans\external\AbsoluteLayout\RELEASE150\AbsoluteLayout-RELEASE150.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Indianapolis"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-18.0.2.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\Antoine\AppData\Local\Temp\surefire10334199333066976397\surefirebooter12177742095802661159.jar C:\Users\Antoine\AppData\Local\Temp\surefire10334199333066976397 2022-12-07T22-27-55_114-jvmRun1 surefire4692459199424777277tmp surefire_017744389568912997290tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Antoine\Programmation\Ecole\4A_Polytech\Génie logiciel\Projet\A22-GLO-Equipe56\muracle_prefabuleux\target\test-classes;C:\Users\Antoine\Programmation\Ecole\4A_Polytech\Génie logiciel\Projet\A22-GLO-Equipe56\muracle_prefabuleux\target\classes;C:\Users\Antoine\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Antoine\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Antoine\.m2\repository\com\google\truth\truth\1.0.1\truth-1.0.1.jar;C:\Users\Antoine\.m2\repository\com\google\guava\guava\28.1-android\guava-28.1-android.jar;C:\Users\Antoine\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Antoine\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Antoine\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Antoine\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Antoine\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.18\animal-sniffer-annotations-1.18.jar;C:\Users\Antoine\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar;C:\Users\Antoine\.m2\repository\com\googlecode\java-diff-utils\diffutils\1.3.0\diffutils-1.3.0.jar;C:\Users\Antoine\.m2\repository\com\google\auto\value\auto-value-annotations\1.6.3\auto-value-annotations-1.6.3.jar;C:\Users\Antoine\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.3\error_prone_annotations-2.3.3.jar;C:\Users\Antoine\.m2\repository\org\netbeans\external\AbsoluteLayout\RELEASE150\AbsoluteLayout-RELEASE150.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Antoine"/>
+    <property name="user.language" value="fr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-08-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-18.0.2.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Antoine\Programmation\Ecole\4A_Polytech\Génie logiciel\Projet\A22-GLO-Equipe56\muracle_prefabuleux"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Antoine\AppData\Local\Temp\surefire10334199333066976397\surefirebooter12177742095802661159.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="18.0.2.1+1-1"/>
+    <property name="user.name" value="Antoine"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans-15\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="localRepository" value="C:\Users\Antoine\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Antoine\AppData\Local\Temp\"/>
+    <property name="java.version" value="18.0.2.1"/>
+    <property name="user.dir" value="C:\Users\Antoine\Programmation\Ecole\4A_Polytech\Génie logiciel\Projet\A22-GLO-Equipe56\muracle_prefabuleux"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-18.0.2.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files (x86)\Java\jre7\bin\;C:\Program Files (x86)\Java\jre1.8.0_271\bin;C:\Program Files (x86)\Java\jdk1.7\bin;C:\Program Files\Java\jdk-17\bin;C:\Users\Antoine\Programmation\apache-maven-3.8.4\bin;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Users\Antoine\AppData\Local\Microsoft\WindowsApps;C:\Users\Antoine\AppData\Local\Programs\Microsoft VS Code\bin;&quot;C:\Program Files (x86)\Java\jdk1.7\bin;&quot;;&quot;C:\Program Files (x86)\Java\jre1.8.0_271\bin;&quot;;&quot;C:\Program Files (x86)\Java\jre7\bin\;&quot;;C:\Program Files\Java\jdk-17\bin;C:\Users\Antoine\Programmation\apache-maven-3.8.4\bin;C:\Users\Antoine\AppData\Roaming\npm;C:\Program Files\JetBrains\PyCharm 2021.3.2\bin;;C:\Program Files\JetBrains\CLion 2022.1\bin;;C:\Users\Antoine\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="18.0.2.1+1-1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="62.0"/>
+  </properties>
+  <testcase name="exempleDuneAssertionJUnit" classname="ca.ulaval.glo2004.AppTest" time="0.003"/>
+  <testcase name="exempleDuneAssertionGoogleTruth" classname="ca.ulaval.glo2004.AppTest" time="0.016"/>
+</testsuite>
